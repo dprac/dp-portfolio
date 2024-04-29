@@ -14,6 +14,7 @@
 </head>
 <body>
 
+<!-- Side Navigation -->
 <div class="sidenav">
   <a href="#" onclick="changeContent('about')">About Me</a>
   <a href="#" onclick="changeContent('project1')">Project 1</a>
@@ -23,11 +24,31 @@
 
 <!-- Main Content Area -->
 <div class="content" id="mainContent">
-  <!-- Content will be dynamically loaded here -->
+  <!-- Placeholder for Content -->
+  <div id="aboutContent" style="display: none;">
+    <h2>About Me</h2>
+    <p>This is the content about me. You can write anything you want to introduce yourself here.</p>
+  </div>
+  
+  <div id="project1Content" style="display: none;">
+    <h2>Project 1</h2>
+    <p>This is the content for Project 1. Describe your project and its features here.</p>
+  </div>
+  
+  <div id="project2Content" style="display: none;">
+    <h2>Project 2</h2>
+    <p>This is the content for Project 2. Provide details about your second project here.</p>
+  </div>
+  
+  <div id="project3Content" style="display: none;">
+    <h2>Project 3</h2>
+    <p>This is the content for Project 3. Describe your third project here.</p>
+  </div>
 </div>
 
-  <!-- Include the separate JavaScript file -->
+<!-- JavaScript to toggle content -->
 <script src="script.js"></script>
+
 
 <div class="content">
   <h2>Daven Prachan's Portfolio </h2>
