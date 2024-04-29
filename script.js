@@ -9,7 +9,7 @@ function changeContent(contentId) {
                  "<p>This is the content about me. You can write anything you want to introduce yourself here.</p>";
   } else if (contentId === 'project1') {
     newContent = "<h2>Project 1</h2>" +
-                 "<p>Project 1 is a poem based around the concept of "uncreative writing." Describe your project and its features here.</p>";
+                 "<p>Project 1 is a poem based around the concept of uncreative writing. Describe your project and its features here.</p>";
   } else if (contentId === 'project2') {
     newContent = "<h2>Project 2</h2>" +
                  "<p>This is the content for Project 2. Provide details about your second project here.</p>";
