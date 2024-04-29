@@ -12,14 +12,14 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: #64B5F6;
   overflow-x: hidden;
 }
 
 
 /* Side navigation links */
 .sidenav a {
-  color: white;
+  color: #1976D2;
   padding: 16px;
   text-decoration: none;
   display: block;
@@ -27,8 +27,8 @@ body {
 
 /* Change color on hover */
 .sidenav a:hover {
-  background-color: light blue;
-  color: blue;
+  background-color: #B3E5FC;
+  color: white;
 }
 
 /* Style the content */
@@ -36,3 +36,6 @@ body {
   margin-left: 200px;
   padding-left: 20px;
 }
+
+<h1 style="background-color:#64B5F6;">
+<p style="background-color:#1976D2;">
