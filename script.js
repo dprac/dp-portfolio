@@ -1,5 +1,4 @@
-<spript>
-  
+
 function changeContent(contentId) {
  var content = document.getElementById('mainContent');
   
@@ -21,4 +20,4 @@ function changeContent(contentId) {
   
   content.innerHTML = newContent;
 }
-</script>
+
