@@ -1,23 +1,14 @@
-
-function changeContent(contentId) {
- var content = document.getElementById('mainContent');
+ function changeContent(contentId) {
+  // Hide all content sections
+  var contentSections = document.querySelectorAll('.content > div');
+  contentSections.forEach(function(section) {
+    section.style.display = 'none';
+  });
   
-  // Fetch content based on contentId
-  var newContent;
-   if (contentId === 'about') {
-    newContent = "<h2>About Me</h2>" +
-                 "<p>This is the content about me. You can write anything you want to introduce yourself here.</p>";
-  } else if (contentId === 'project1') {
-    newContent = "<h2>Project 1</h2>" +
-                 "<p>Project 1 is a poem based around the concept of uncreative writing. Describe your project and its features here.</p>";
-  } else if (contentId === 'project2') {
-    newContent = "<h2>Project 2</h2>" +
-                 "<p>This is the content for Project 2. Provide details about your second project here.</p>";
-  } else if (contentId === 'project3') {
-    newContent = "<h2>Project 3</h2>" +
-                 "<p>This is the content for Project 3. Describe your third project here.</p>";
+  // Show the selected content section
+  var selectedContent = document.getElementById(contentId + 'Content');
+  if (selectedContent) {
+    selectedContent.style.display = 'block';
   }
-  
-  content.innerHTML = newContent;
 }
 
